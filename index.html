@@ -7,16 +7,21 @@
     <title>Tieto Web Course</title>
 </head>
 <body>
-    <header></header>
-    <nav>
-        <ul>
-            <li>UnorderedList item 1</li>
-            <li>UnorderedList item 2</li>
-            <li>UnorderedList item 3</li>
-        </ul>
-    </nav>
+    <header>
+        <h1 id="intro">Lorem ipsum <span>dolor</span>, sit amet consectetur adipisicing elit. Adipisci illum, necessitatibus rerum itaque aut perspiciatis quae sapiente officiis natus consequatur, laboriosam eius similique repellat repudiandae culpa asperiores enim doloremque molestias.</h1>
+        <nav>
+            <ul>
+                <li><a href="#article-header">Lorem</a></li>
+                <li><a href="#video">ipsum</a></li>
+                <li><a href="#footer">dolor</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <article>
+            <h2 id="article-header">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugiat placeat quasi veritatis illo impedit nobis beatae quia ut delectus minus iste laborum, deleniti saepe nam ea qui enim a!</p>
+            </h2>
             <section>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat alias suscipit possimus officiis aspernatur earum magni, eligendi maxime impedit, autem, tempore aut molestiae. Beatae doloremque, aperiam exercitationem tempora incidunt dolores.</p>
             </section>
@@ -24,41 +29,65 @@
         <table>
             <thead>
                 <tr>
-                    <th>1</th>
-                    <th>2</th>
-                    <th>3</th>
-                    <th>4</th>
+                    <th><b>Lorem</b></th>
+                    <th><b>ipsum</b></th>
+                    <th><b>dolor</b></th>
+                    <th><b>sit</b></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>a</td>
-                    <td>b</td>
-                    <td>c</td>
-                    <td>d</td>
+                    <td><i>Lorem</i></td>
+                    <td><i>ipsum</i></td>
+                    <td><i>dolor</i></td>
+                    <td><i>sit</i></td>
+                </tr>
+                <tr>
+                    <td><sub>Lorem</sub></td>
+                    <td><sub>bipsum</sub></td>
+                    <td><sub>dolor</sub></td>
+                    <td><sub>sit</sub></td>
+                </tr>
+                <tr>
+                    <td><sup>Lorem</sup></td>
+                    <td><sup>bipsum</sup></td>
+                    <td><sup>dolor</sup></td>
+                    <td><sup>sit</sup></td>
                 </tr>
             </tbody>
         </table>
-        <video controls>
+        <video id="video" controls>
             <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4" type="video/mp4">
             Your browser does not support the video tag.        
         </video>  
     </main>
     <aside>
+        <img src="https://via.placeholder.com/90x460?text=This+is+just+placeholder" alt="lorem">
         <ol>
             <li>OrderedList item 1</li>
             <li>OrderedList item 2</li>
             <li>OrderedList item 3</li>
         </ol>
     </aside>
-    <footer>
+    <footer id="footer">
         <form action="#">
             <fieldset>
                 <input type="email" placeholder="Your email...">
-                <select name="" id=""></select>
+                <label><input type="radio" name="plan">basic</label>
+                <label><input type="radio" name="plan">premium</label>
+                <label><input type="radio" name="plan">platinum</label>
+                <label><input type="checkbox">debitis?</label>
+                <select name="substriction-length" id="">
+                        <option value="lorem">lorem</option>
+                        <option value="ibsum">ibsum</option>
+                        <option value="dolor">dolor</option>
+                        <option value="debitis">debitis</option>
+                </select>
                 <button type="submit">Subscribe!</button>
             </fieldset>
         </form>
+        <!-- <a href="#header">Up!</a> -->
+        <p><a href="#intro">UP!</a></p> 
     </footer>
 </body>
 </html>
